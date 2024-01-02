@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "hedvig";
+    src: url("../fonts/hedvig.ttf");
+}
+
+.header {
+    background-color: #090d18;
+    color: #fcfcfc;
+    padding: 12px;
+    text-align: center;
+}
+
+.nav {
+    display: grid;
+    justify-content: center;
+    background-color: #090d18;
+    font-family: "hedvig";
+    padding: 12px;
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 35px;
+    color: #fcfcfc;
+}
+
+.main {
+    background-color: #2e2e2e;
+
+}
+
+.p1 {
+    text-align: center;
+    padding: 5%;
+    font-family: "hedvig";
+    border-radius: 10%;   
+}
+
+.p2 {
+    color: #fcfcfc;
+    background-color: #090d18;
+    font-family: hedvig;
+    padding: 20px;
+}
+
+.cajita {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #090d18;
+    margin-bottom: 1rem;
+}
+
+.imgg {
+    width: 133%;
+    
+}
+
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #090d18;
+}
+
+.footer {
+    color: #fcfcfc;
+    background-color: #090d18;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p3 {
+    color: #fcfcfc;
+    background-color: #090d18;
+    text-align: center;
+    padding-top: 1%;
+    font-family: hedvig;
+}
+
+.span {
+    color: red;
+}
+
+.fieldset {
+    padding-top: 5%;
+}
+
