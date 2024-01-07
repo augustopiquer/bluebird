@@ -5,24 +5,32 @@
 }
 
 @font-face {
-    font-family: "hedvig";
+    font-family: "hedvig", "Oswal";
     src: url("../fonts/hedvig.ttf");
 }
+/*------------HEADER------------*/
 
-.header {
+.img-icon {
     background-color: #090d18;
     color: #fcfcfc;
     padding: 12px;
     text-align: center;
 }
 
+.font-bluebird {
+    font-family: "oswald";
+    
+}
+
 .nav {
     display: grid;
-    justify-content: center;
     background-color: #090d18;
     font-family: "hedvig";
-    padding: 12px;
-    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav a{
@@ -31,7 +39,9 @@
     color: #fcfcfc;
 }
 
-.main {
+/*-------------------------------*/
+
+.background-color-general {
     background-color: #2e2e2e;
 
 }
@@ -44,9 +54,10 @@
 }
 
 .p2 {
+    
     color: #fcfcfc;
     background-color: #090d18;
-    font-family: hedvig;
+    font-family: "hedvig";
     padding: 20px;
 }
 
@@ -55,15 +66,10 @@
     justify-content: center;
     align-items: center;
     background-color: #090d18;
-    margin-bottom: 1rem;
-}
-
-.imgg {
-    width: 133%;
-    
 }
 
 
+/*---------index video----------*/
 .youtube {
     display: flex;
     justify-content: center;
@@ -71,6 +77,15 @@
     padding-bottom: 1%;
     background-color: #090d18;
 }
+
+.p3 {
+    color: #fcfcfc;
+    background-color: #090d18;
+    text-align: center;
+    padding-top: 1%;
+    font-family: "hedvig";
+}
+/*FOOTER*/
 
 .footer {
     color: #fcfcfc;
@@ -81,23 +96,9 @@
     padding-bottom: 1%;
 }
 
-a {
-    text-decoration: none;
-}
-
-.p3 {
-    color: #fcfcfc;
-    background-color: #090d18;
-    text-align: center;
-    padding-top: 1%;
-    font-family: hedvig;
-}
-
 .span {
     color: red;
 }
 
-.fieldset {
-    padding-top: 5%;
-}
+
 
