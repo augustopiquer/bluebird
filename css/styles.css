@@ -39,6 +39,13 @@ a {
     color: #fcfcfc;
 }
 
+.carrusel {
+    background-color: #090d18;
+    padding-inline: 25vh;
+    padding-block-start: ;
+    text-align: center;
+}
+
 /*-------------------------------*/
 
 .background-color-general {
