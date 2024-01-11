@@ -34,9 +34,15 @@ a {
 }
 
 .nav a{
+    display: grid;
     text-decoration: none;
     margin: 35px;
     color: #fcfcfc;
+    align-items: center;
+}
+
+.nav a:hover {
+    background-color: #0c1325;
 }
 
 .carrusel {
@@ -51,6 +57,11 @@ a {
 .background-color-general {
     background-color: #2e2e2e;
 
+}
+
+.maps-map {
+    display: grid;
+    align-items: center;
 }
 
 .p1 {
@@ -77,13 +88,7 @@ a {
 
 
 /*---------index video----------*/
-.youtube {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: #090d18;
-}
+
 
 .p3 {
     color: #fcfcfc;
