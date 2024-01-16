@@ -55,7 +55,7 @@ a {
 /*-------------------------------*/
 
 .background-color-general {
-    background-color: #2e2e2e;
+    background-color: #090d18;
 
 }
 
@@ -109,8 +109,11 @@ a {
 }
 
 .span {
-    color: red;
+    color: rgb(255, 166, 0);
 }
 
+.span-footer {
+    color: rgb(0, 81, 255);
+}
 
 
