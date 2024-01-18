@@ -27,6 +27,7 @@
     background-color: #090d18;
     font-family: "hedvig";
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    text-align: center;
 }
 
 a {
