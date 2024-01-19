@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -106,8 +108,9 @@ a {
 .footer {
     color: #fcfcfc;
     background-color: #090d18;
+    justify-content: center;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     padding-top: 10%;
     padding-bottom: 1%;
 }
@@ -117,7 +120,49 @@ a {
 }
 
 .span-footer {
-    color: rgb(0, 81, 255);
+    color: rgb(255, 166, 0);
 }
 
 
+.vh-contact {
+    display: grid;
+    padding-top: 3%;
+    padding-inline: 10%;  
+}
+
+.icons-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 40rem;
+    padding-top: 2rem;
+
+}
+
+@media (max-width: 1400px) {
+    .icons-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 30rem;
+    padding-top: 2rem;
+   }
+}
+@media (max-width: 1070px) {
+    .icons-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 20rem;
+    padding-top: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    .icons-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 10rem;
+    padding-top: 2rem;
+    }
+}
