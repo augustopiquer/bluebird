@@ -67,14 +67,6 @@ a {
     align-items: center;
 }
 
-.p1 {
-    text-align: center;
-    padding-inline: 100px;
-    padding-block: 20px;
-    font-family: "hedvig";
-    border-radius: 10%;   
-}
-
 .p2 {
     
     color: #fcfcfc;
@@ -83,6 +75,26 @@ a {
     padding-inline: 100px;
     padding-block: 20px;
     align-items: center;
+}
+
+.p3 {
+    color: #fcfcfc;
+    font-family: "hedvig";
+    background-color: #090d18;
+    text-align: center;
+    padding-top: 1%;
+    font-family: "hedvig";
+}
+
+.p3__sucursal {
+    color: rgb(255, 166, 0);
+    font-size: 1.7rem;
+    font-family: "hedvig";
+    background-color: #090d18;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "hedvig";
+
 }
 
 .cajita {
@@ -96,13 +108,7 @@ a {
 /*---------index video----------*/
 
 
-.p3 {
-    color: #fcfcfc;
-    background-color: #090d18;
-    text-align: center;
-    padding-top: 1%;
-    font-family: "hedvig";
-}
+
 /*FOOTER*/
 
 .footer {
@@ -157,12 +163,33 @@ a {
     padding-top: 2rem;
     }
 }
+
+@media (max-width: 800px) {
+    .icons-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 15rem;
+    padding-top: 2rem;
+    }
+}
+
 @media (max-width: 500px) {
     .icons-social {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-inline: 10rem;
+    padding-top: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .icons-social {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5rem;
     padding-top: 2rem;
     }
 }
