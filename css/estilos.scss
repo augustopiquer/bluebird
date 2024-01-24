@@ -69,6 +69,7 @@ a {
 .carrusel {
     background-color: #090d18;
     padding-inline: 25vh;
+    text-align: center;
 }
 
 /*-------------------------------*/
@@ -152,46 +153,49 @@ a {
     padding-inline: 10%;  
 }
 
-.icons-buttom {
-    display: flex;
-    list-style: none; 
-    padding: 10px; 
+.icons-social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cambiado de grid-template-rows a grid-template-columns */
+    list-style: none;
     text-decoration: none;
-    
+    color: white;
+
 }
 
 .icons-buttom {
     color: white;
     text-decoration: none;
-    
 }
 .icons-buttom:hover {
     color: #ffc861;
-    
+
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1400px) {
     .icons-social {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-inline: 55rem;
+    margin-inline: 30rem;
     padding-top: 2rem;
    }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1070px) {
     .icons-social {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-inline: 33rem;
+    margin-inline: 20rem;
     padding-top: 2rem;
     }
 }
 
-@media (max-width: 964px) {
+@media (max-width: 800px) {
     .icons-social {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-inline: 25rem;
+    margin-inline: 15rem;
     padding-top: 2rem;
     }
 }
@@ -199,8 +203,19 @@ a {
 @media (max-width: 500px) {
     .icons-social {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-inline: 10rem;
+    padding-top: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .icons-social {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5rem;
     padding-top: 2rem;
     }
 }
