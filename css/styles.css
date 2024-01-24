@@ -170,6 +170,15 @@ a {
     
 }
 
+@media (min-width: 1920px) {
+    .icons-social {
+    display: flex;
+    align-items: center;
+    margin-inline: 55rem;
+    padding-top: 2rem;
+   }
+}
+
 @media (max-width: 1920px) {
     .icons-social {
     display: flex;
@@ -196,11 +205,20 @@ a {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 536px) {
     .icons-social {
     display: flex;
     align-items: center;
     margin-inline: 10rem;
+    padding-top: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .icons-social {
+    display: flex;
+    align-items: center;
+    margin-inline: 5rem;
     padding-top: 2rem;
     }
 }
