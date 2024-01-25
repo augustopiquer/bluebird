@@ -1,3 +1,5 @@
+$colorPrincipal: #090d18;
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 * {
@@ -12,45 +14,40 @@
 }
 /*------------HEADER------------*/
 
-.header {
-    
-    background-color: #090d18;
+.header { 
+    background-color: $colorPrincipal;
     color: #fcfcfc;
     padding: 15px;
     text-align: center;
 }
 
 .maps__aling {
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     color: #fcfcfc;
     padding: 15px;
     text-align: center;
 }
 
 .ctos__aling {
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     color: #fcfcfc;
     padding: 15px;
     text-align: center; 
 }
 
-
-
-
 .font-bluebird {
     font-family: "oswald";
-    
 }
 
 .nav {
     display: grid;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     text-align: center;
 }
 
-a {
+.a {
     text-decoration: none;
 }
 
@@ -67,15 +64,14 @@ a {
 }
 
 .carrusel {
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     padding-inline: 25vh;
-    text-align: center;
 }
 
 /*-------------------------------*/
 
 .background-color-general {
-    background-color: #090d18;
+    background-color: $colorPrincipal;
 
 }
 
@@ -87,7 +83,7 @@ a {
 .p2 {
     
     color: #fcfcfc;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     padding-inline: 100px;
     padding-block: 20px;
@@ -97,7 +93,7 @@ a {
 .p3 {
     color: #fcfcfc;
     font-family: "hedvig";
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     text-align: center;
     padding-top: 1%;
     font-family: "hedvig";
@@ -107,7 +103,7 @@ a {
     color: rgb(255, 166, 0);
     font-size: 1.7rem;
     font-family: "hedvig";
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     text-align: center;
     padding-top: 1rem;
     font-family: "hedvig";
@@ -118,19 +114,15 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
 }
-
-
-/*---------index video----------*/
-
 
 
 /*FOOTER*/
 
 .footer {
     color: #fcfcfc;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     justify-content: center;
     text-align: center;
     font-family: Verdana;
@@ -153,67 +145,88 @@ a {
     padding-inline: 10%;  
 }
 
-.icons-social {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Cambiado de grid-template-rows a grid-template-columns */
-    list-style: none;
+.icons-buttom {
+    display: flex;
+    list-style: none; 
+    padding: 10px; 
     text-decoration: none;
-    color: white;
-
+    
 }
 
 .icons-buttom {
     color: white;
     text-decoration: none;
+    
 }
 .icons-buttom:hover {
     color: #ffc861;
-
+    
 }
 
-@media (max-width: 1400px) {
-    .icons-social {
+.icons-social {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-inline: 30rem;
+    margin-inline: 55rem;
     padding-top: 2rem;
-   }
 }
-@media (max-width: 1070px) {
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s ease-in-out both;
+	        animation: scale-up-center 0.4s ease-in-out both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+@media (max-width: 1200px) {
     .icons-social {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-inline: 20rem;
+    margin-inline: 33rem;
     padding-top: 2rem;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 964px) {
     .icons-social {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-inline: 15rem;
+    margin-inline: 25rem;
     padding-top: 2rem;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 536px) {
     .icons-social {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-inline: 10rem;
     padding-top: 2rem;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     .icons-social {
-    display: grid;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
     margin-inline: 5rem;
     padding-top: 2rem;
