@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
@@ -32,24 +33,36 @@
     <main>
         <div class="background-color-general">
         <section class="header">
-            <p class="p2">Tipo de café; <span class="span">Capuccino</span></p>
-            <div class="cajita">
+            <p class="p2" data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000">Tipo de café; <span class="span">Capuccino</span></p>
+            <div class="cajita" data-aos="fade-right">
                 <img src="../img/cupucino.png" alt="" width="400">
             </div>
                 
-             <p class="p2">Tipo de café; <span class="span">Macchiato</span></p>
+             <p class="p2" data-aos="fade-left"
+             data-aos-anchor="#example-anchor"
+             data-aos-offset="500"
+             data-aos-duration="2000">Tipo de café; <span class="span">Macchiato</span></p>
             
-            <div class="cajita">
+            <div class="cajita" data-aos="fade-left">
                 <img src="../img/macchiato.webp" alt="" width="400" height="">
             </div>
-            <p class="p2">Tipo de café; <span class="span">Expreso</span></p>
-            <div class="cajita">
+            <p class="p2" data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000">Tipo de café; <span class="span">Expreso</span></p>
+            <div class="cajita" data-aos="fade-right">
                 <img src="../img/expreso.webp" alt="" width="400">
             </div>
                 
-             <p class="p2">Tipo de café; <span class="span">Americano</span></p>
+             <p class="p2" data-aos="fade-left"
+             data-aos-anchor="#example-anchor"
+             data-aos-offset="500"
+             data-aos-duration="2000">Tipo de café; <span class="span">Americano</span></p>
             
-            <div class="cajita">
+            <div class="cajita" data-aos="fade-left">
                 <img src="../img/americano.webp" alt="" width="400" height="">
             </div>
         </div>
@@ -73,6 +86,9 @@
     </footer>
     
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
