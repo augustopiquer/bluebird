@@ -1,10 +1,10 @@
 .background-color-general {
-    background-color: #090d18;  
+    background-color: $colorPrincipal;  
 }
 
 .p2 {
     color: #fcfcfc;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     padding-inline: 100px;
     padding-block: 20px;
@@ -15,5 +15,5 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
 }

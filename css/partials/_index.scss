@@ -1,5 +1,5 @@
 .carrusel {
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     padding-inline: 25vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -7,7 +7,7 @@
 
 .p2 {
     color: #fcfcfc;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     padding-inline: 100px;
     padding-block: 20px;

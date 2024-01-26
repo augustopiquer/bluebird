@@ -5,7 +5,7 @@
 .p3 {
     color: #eeaf03;
     font-family: "hedvig";
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     text-align: center;
     padding-top: 1%;
     font-family: "hedvig";
@@ -13,7 +13,7 @@
 
 .p2 {
     color: #ff0404;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     padding-inline: 100px;
     padding-block: 20px;
@@ -24,5 +24,5 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
 }

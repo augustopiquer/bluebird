@@ -1,9 +1,9 @@
 .background-color-general {
-    background-color: #090d18;  
+    background-color: $colorPrincipal;  
 }
 
 .header { 
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     color: #fcfcfc;
     padding: 15px;
     text-align: center;
@@ -20,7 +20,7 @@
 
 .nav {
     display: grid;
-    background-color: #090d18;
+    background-color: $colorPrincipal;
     font-family: "hedvig";
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     text-align: center;

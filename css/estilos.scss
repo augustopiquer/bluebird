@@ -1,3 +1,4 @@
+@import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
 @import "./partials/index";
@@ -7,7 +8,6 @@
 @import "./partials/productos";
 @import "./partials/footer.scss";
 
-
 /*-----------IMPORT CDN BOOSTRAP----------*/
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
@@ -15,11 +15,12 @@
 
 /*----------FONT-FACE-----------*/
 
+
+
 @font-face {
     font-family: "hedvig", "Oswal";
     src: url("../fonts/hedvig.ttf");
 }
-
 
 
 
