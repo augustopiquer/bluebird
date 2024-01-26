@@ -5,26 +5,11 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "hedvig", "Oswal";
-  src: url("../fonts/hedvig.ttf");
+.background-color-general {
+  background-color: #090d18;
 }
-/*------------HEADER------------*/
+
 .header {
-  background-color: #090d18;
-  color: #fcfcfc;
-  padding: 15px;
-  text-align: center;
-}
-
-.maps__aling {
-  background-color: #090d18;
-  color: #fcfcfc;
-  padding: 15px;
-  text-align: center;
-}
-
-.ctos__aling {
   background-color: #090d18;
   color: #fcfcfc;
   padding: 15px;
@@ -35,16 +20,16 @@
   font-family: "oswald";
 }
 
+.scale-up-center {
+  animation: scale-up-center 0.4s ease-in-out both;
+}
+
 .nav {
   display: grid;
   background-color: #090d18;
   font-family: "hedvig";
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   text-align: center;
-}
-
-.a {
-  text-decoration: none;
 }
 
 .nav a {
@@ -59,19 +44,15 @@
   background-color: #0c1325;
 }
 
+.nav-menu {
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
 .carrusel {
   background-color: #090d18;
   padding-inline: 25vh;
-}
-
-/*-------------------------------*/
-.background-color-general {
-  background-color: #090d18;
-}
-
-.maps-map {
-  display: grid;
-  align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .p2 {
@@ -83,13 +64,46 @@
   align-items: center;
 }
 
-.p3 {
+.ctos__aling {
+  background-color: #090d18;
   color: #fcfcfc;
+  padding: 15px;
+  text-align: center;
+}
+
+.pd-contact {
+  display: grid;
+  padding-top: 3%;
+  padding-inline: 10%;
+}
+
+.span {
+  color: rgb(255, 166, 0);
+}
+
+.p3 {
+  color: #eeaf03;
   font-family: "hedvig";
   background-color: #090d18;
   text-align: center;
   padding-top: 1%;
   font-family: "hedvig";
+}
+
+.p2 {
+  color: #ff0404;
+  background-color: #090d18;
+  font-family: "hedvig";
+  padding-inline: 100px;
+  padding-block: 20px;
+  align-items: center;
+}
+
+.cajita {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #090d18;
 }
 
 .p3__sucursal {
@@ -102,6 +116,26 @@
   font-family: "hedvig";
 }
 
+.maps__aling {
+  background-color: #090d18;
+  color: #fcfcfc;
+  padding: 15px;
+  text-align: center;
+}
+
+.background-color-general {
+  background-color: #090d18;
+}
+
+.p2 {
+  color: #fcfcfc;
+  background-color: #090d18;
+  font-family: "hedvig";
+  padding-inline: 100px;
+  padding-block: 20px;
+  align-items: center;
+}
+
 .cajita {
   display: grid;
   justify-content: center;
@@ -109,7 +143,6 @@
   background-color: #090d18;
 }
 
-/*FOOTER*/
 .footer {
   color: #fcfcfc;
   background-color: #090d18;
@@ -120,34 +153,8 @@
   padding-bottom: 1%;
 }
 
-.span {
-  color: rgb(255, 166, 0);
-}
-
 .span-footer {
   color: rgb(255, 166, 0);
-}
-
-.pd-contact {
-  display: grid;
-  padding-top: 3%;
-  padding-inline: 10%;
-}
-
-.icons-buttom {
-  display: flex;
-  list-style: none;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.icons-buttom {
-  color: white;
-  text-decoration: none;
-}
-
-.icons-buttom:hover {
-  color: #ffc861;
 }
 
 .icons-social {
@@ -157,8 +164,37 @@
   padding-top: 2rem;
 }
 
-.scale-up-center {
-  animation: scale-up-center 0.4s ease-in-out both;
+.icons-buttom {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.icons-buttom:hover {
+  text-decoration: none;
+  color: #ffc861;
+}
+
+/*-----------IMPORT CDN BOOSTRAP----------*/
+/*----------FONT-FACE-----------*/
+@font-face {
+  font-family: "hedvig", "Oswal";
+  src: url("../fonts/hedvig.ttf");
+}
+/*----------KEYFRAMES-----------*/
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }
 @keyframes scale-up-center {
   0% {
@@ -168,6 +204,7 @@
     transform: scale(1);
   }
 }
+/*----------MEDIA QUERIES----------*/
 @media (max-width: 1200px) {
   .icons-social {
     display: flex;
